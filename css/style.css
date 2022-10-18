@@ -1,0 +1,623 @@
+*{
+    --color1: rgb(233, 196, 106);
+    --color2: rgb(42, 157, 143);
+    --color3: rgb(244, 162, 97);
+    --color4: rgb(231, 111, 81);
+}
+
+
+@media (max-width: 900px){
+
+    body{
+        color: black;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin: 0;
+        background-color: var(--color1);
+    }
+
+    .navbar{
+        display: flex;
+        justify-content: center;
+        position: fixed;
+        top: 0;
+        width: 100vw;
+        height: 8%;
+        background-color: var(--color2);
+        box-shadow: 0 0 50px 10px;
+    }
+
+    .navbutton{
+        color: black;
+        font-size: 40px;
+        padding: 40px 50px;
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+    :visited{
+        text-decoration: none;
+    }
+
+    /*---------------------------------------------------*/
+
+    .section1{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap; 
+        flex-direction: column;
+        text-align: center;
+        border-radius: 10px;
+    }
+
+
+    .div1{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        text-align: center;
+        padding: 100px 100px;
+        background-color: var(--color3);
+        margin: 150px 30px 0px 30px;
+        border-radius: 10px;
+    }
+
+    .p1{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .photoprofil{
+        align-self: center;
+        border-radius: 10px;
+        max-width: 500px;
+        max-height: 500px;
+        margin: 20px;
+        border-radius: 10px;
+    }
+
+
+    .titreprofil{
+        font-size: 50px;
+    }
+
+    .hr1{
+        align-self: center;
+        height: 1px;
+        border: 0;
+        margin-top: 50px;
+        border-top: solid var(--color4);
+        width: 80%;
+    }
+
+    .div2{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding: 100px 100px;
+        background-color: var(--color3);
+        margin: 30px 30px 0px 30px;
+        border-radius: 10px;
+    }
+
+    .titreformation{
+        align-self: center;
+        font-size: 50px;
+    }
+
+    .formationdev{
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .adrar{
+        text-align: center;
+        font-size: 30px;
+    }
+
+    ul{
+        font-size: 25px;
+    }
+
+    .frontback{
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .hr2{
+        align-self: center;
+        height: 1px;
+        border: 0;
+        border-top: solid var(--color4);
+        width: 50%;
+    }
+
+    .hr3{
+        align-self: center;
+        height: 1px;
+        border: 0;
+        margin-left: 10px;
+        margin-right: 10px;
+        border-top: solid var(--color4);
+        width: 30%;
+    }
+
+    .div3{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding: 100px 100px;
+        background-color: var(--color3);
+        margin: 30px 30px 0px 30px;
+        border-radius: 10px;
+    }
+
+    .paragraphecv{
+        font-size: 30px;
+    }
+
+    /*---------------------------------------------------*/
+
+    .formulaire{
+        background-color: var(--color2);
+        color: black;
+        margin: 30% 0% 40% 0%;
+        padding: 5% 0% 5% 0%;
+        border-radius: 25px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    form{
+        background-color: var(--color4);
+        padding: 0% 15% 0% 15%;
+        font-size: 35px;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-items: center;
+        flex-direction: column;
+        text-align: center;
+        border-radius: 20px;
+        width: 70%;
+    }
+
+    .contact{
+        display: block;
+        text-align: center;
+        align-self: center;
+        margin: 20px;
+    }
+
+    label, input{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    input{
+        font-size: 35px;
+        border: 0px;
+        border-radius: 10px;
+        outline: none;
+        height: 100px;
+        width: 600px;
+    }
+
+    .contact{
+        align-self: center;
+    }
+
+    textarea{
+        font-size: 35px;
+        border: none;
+        border-radius: 10px;
+        resize: none;
+        outline: none;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        height: 600px;
+        width: 600px;
+    }
+
+    button{
+        font-size: 25px;
+        height: 70px;
+        width: 150px;
+        margin: 10px;
+        border-radius: 20px;
+        border: none;
+    }
+
+    /*---------------------------------------------------*/
+
+    .creations{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        background-color: var(--color2);
+        margin: 80px 20px 20px 20px;
+        border-radius: 10px;
+    }
+
+    .nomcreations{
+        border-radius: 10px;
+        margin: 20px;
+        text-align: center;
+        background-color: var(--color3);
+        align-self: center;
+        padding: 20px;
+    }
+
+    .titrecreations{
+        font-size: 50px;
+        text-align: center;
+        margin-top: 230px;
+    }
+
+    .imagesite{
+        margin: 20px;
+        height: 600px;
+        width: 600px;
+        border-radius: 10px;
+    }
+
+    .crea{
+        font-size: 40px;
+    }
+
+    
+
+
+}
+
+/*---------------------------------------------------*/
+/*---------------------------------------------------*/
+/*---------------------------------------------------*/
+
+
+@media (min-width: 901px) {
+
+    body{
+        color: black;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin: 0;
+        background-color: var(--color1);
+    }
+
+    .navbar{
+        display: flex;
+        justify-content: center;
+        position: fixed;
+        top: 0;
+        width: 100vw;
+        height: 8%;
+        background-color: var(--color2);
+        box-shadow: 0 0 50px 10px;
+    }
+
+    .navbutton{
+        color: black;
+        font-size: 40px;
+        padding: 10px 50px;
+    }
+
+    .navbutton:hover{
+        color: white;
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+    :visited{
+        text-decoration: none;
+    }
+
+    /*---------------------------------------------------*/
+
+    .section1{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap; 
+        text-align: center;
+        border-radius: 10px;
+        margin-bottom: 30px;
+    }
+
+    div{
+        max-width: 600px;
+        max-height: 1900px;
+    }
+
+
+    .div1{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        text-align: center;
+        padding: 100px 100px;
+        background-color: var(--color3);
+        margin: 30px 300px 0px 300px;
+        border-radius: 10px;
+        height: 800px;
+    }
+
+    .p1{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .photoprofil{
+        align-self: center;
+        border-radius: 10px;
+        max-width: 500px;
+        max-height: 500px;
+        margin: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 30px;
+    }
+
+
+    .titreprofil{
+        font-size: 50px;
+    }
+
+    .hr1{
+        align-self: center;
+        height: 1px;
+        border: 0;
+        margin-top: 50px;
+        border-top: solid var(--color4);
+        width: 80%;
+    }
+
+    .div2{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding: 100px 100px;
+        background-color: var(--color3);
+        margin: 30px 30px 0px 30px;
+        border-radius: 10px;
+    }
+
+    .titreformation{
+        align-self: center;
+        font-size: 50px;
+    }
+
+    .formationdev{
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .adrar{
+        text-align: center;
+        font-size: 30px;
+    }
+
+    ul{
+        font-size: 25px;
+    }
+
+    .frontback{
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .hr2{
+        align-self: center;
+        height: 1px;
+        border: 0;
+        border-top: solid var(--color4);
+        width: 50%;
+    }
+
+    .hr3{
+        align-self: center;
+        height: 1px;
+        border: 0;
+        margin-left: 10px;
+        margin-right: 10px;
+        border-top: solid var(--color4);
+        width: 30%;
+    }
+
+    .div3{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding: 100px 100px;
+        background-color: var(--color3);
+        margin: 30px 30px 0px 30px;
+        border-radius: 10px;
+    }
+
+    .paragraphecv{
+        font-size: 30px;
+    }
+
+    /*---------------------------------------------------*/
+
+    .formulaire{
+        background-color: var(--color2);
+        color: black;
+        margin: 10% 15% 10% 15%;
+        padding: 5% 0% 5% 0%;
+        border-radius: 25px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    form{
+        background-color: var(--color4);
+        padding: 0% 15% 0% 15%;
+        font-size: 35px;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-items: center;
+        flex-direction: column;
+        text-align: center;
+        border-radius: 20px;
+        width: 60%;
+    }
+
+    .contact{
+        display: block;
+        text-align: center;
+        align-self: center;
+        margin: 20px;
+    }
+
+    label, input{
+        display: flex;
+        flex-direction: column;
+    }
+
+    input{
+        border: 0px;
+        border-radius: 10px;
+        outline: none;
+        height: 35px;
+        width: 600px;
+    }
+
+    .contact{
+        align-self: center;
+    }
+
+    textarea{
+        border: none;
+        border-radius: 5px;
+        resize: none;
+        outline: none;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        height: 100%;
+        width: 600px;
+    }
+
+    ::placeholder{
+        font-size: 25px;
+    }
+
+    .envoi{
+        height: 50px;
+        width: 100px;
+        border-radius: 20px;
+        border: none;
+        margin-top: 50px;
+        transition: transform .1s;
+    }
+    .envoi:hover{
+        cursor: pointer;
+        background-color: rgb(219, 219, 219);
+    }
+
+    .envoi:active{
+        color: white;
+        background-color: rgb(110, 110, 110);
+
+        transform: scale(1.1);
+    }
+
+    /*---------------------------------------------------*/
+
+    .creations{
+        display: flex;
+        justify-content: center;
+        background-color: var(--color2);
+        margin: 80px 20px 20px 20px;
+        border-radius: 10px;
+    }
+
+    .nomcreations{
+        border-radius: 10px;
+        margin: 20px;
+        text-align: center;
+        background-color: var(--color3);
+        align-self: center;
+        padding: 20px;
+        transition: transform .8s;
+    }
+
+    
+    .nomcreations:hover{
+        transform: scale(1.1);
+    }
+
+    .titrecreations{
+        font-size: 50px;
+        text-align: center;
+        margin-top: 150px;
+    }
+
+    .imagesite{
+        margin: 20px;
+        height: 400px;
+        width: 400px;
+        border-radius: 10px;
+    }
+
+    .crea{
+        font-size: 40px;
+    }
+
+
+
+
+     /*---------------------------------------------------*/
+     /*---------------------------------------------------*/
+
+     .spider{
+        margin-top: 200px;
+        display: flex;
+        justify-content: center;
+     }
+
+     .web{
+        height: 5px;
+        width: 10px;
+        position: absolute;
+        bottom: 443px;
+        left: 785px;
+        transition: transform .4s;
+     }
+
+     .web:hover{
+        transform: perspective(20px) rotateY(45deg) scale(4.4);
+     }
+
+    .darkMode{
+        position: absolute;
+        font-size: 20px;
+        bottom: 50px;
+        right: 50px;
+        width: 150px;
+        height: 80px;
+        background-color: black;
+        color: grey;
+        border-radius: 20px;
+    }
+
+    .black{
+        background-color: black;
+    }
+
+    .blackMan{
+        position: fixed;
+        top: 200px;
+
+    }
+
+    .navnoir{
+        background-color: grey;
+    }
+}
