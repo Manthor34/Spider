@@ -583,15 +583,16 @@
      }
 
      .web{
-        height: 5px;
+        height: 8px;
         width: 10px;
         position: absolute;
-        bottom: 443px;
-        left: 785px;
+        bottom: 46%;
+        left: 41%;
         transition: transform .4s;
      }
 
      .web:hover{
+        cursor: pointer;
         transform: perspective(20px) rotateY(45deg) scale(4.4);
      }
 
