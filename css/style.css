@@ -6,7 +6,7 @@
 }
 
 
-@media (max-width: 900px){
+@media (max-width: 1080px){
 
     body{
         color: black;
@@ -279,7 +279,7 @@
 /*---------------------------------------------------*/
 
 
-@media (min-width: 901px) {
+@media (min-width: 1081px) {
 
     body{
         color: black;
