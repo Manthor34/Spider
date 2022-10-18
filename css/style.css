@@ -607,6 +607,10 @@
         border-radius: 20px;
     }
 
+    .darkMode:hover{
+        cursor: pointer;
+    }
+
     .black{
         background-color: black;
     }
